@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:id="@+id/txtFileName"
+        android:textSize="35sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnCreate"
+        android:text="创建文件"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtShowMessage"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <Button
+        android:textSize="25sp"
+        android:text="写入文件"
+        android:id="@+id/btnReadData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:textSize="25sp"
+        android:text="读取文件"
+        android:id="@+id/btnWriteData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/txtInputData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
